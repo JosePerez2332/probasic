@@ -3,14 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/computador.png" type="img/png">
+    <link rel="stylesheet" href="css/style.css" />
+    
+    
+    <title>PaginaWeb</title>
 </head>
 <body>
-Hola mundo
+   <!-- Carpeta del sitio web -->
+    <header>
+        <h1>Guia de etiquetas</h1>
+        <p>Estoy aprendiendo como usar etiquetas en html para estruturar un sitio web</p>
 
-    <img src="img/gato.jpg" alt="gato" />
-    <script src="js/function.js"></script>
+    </header>
+
+    <!-- menu de navegación -->
+<nav>
+    <ul>
+        <li><a href="">Encabezado</a></li>
+        <li><a href="">Contenido Principal</a></li>
+        <li><a href="">Píe de pagina</a></li>
+        <!-- menu desplegable -->
+         <li class="menu_item">
+            <a href="">Etiquetas</a>
+            <ul class="submenu">
+                <li><a href="">Etiqueta1</a></li>
+                <li><a href="">Etiqueta1</a></li>
+                <li><a href="">Etiqueta1</a></li>
+            </ul>
+         </li>
+    </ul>
+</nav>
+<!-- contenido principal -->
+
+<main>
+    <section>
+        <h2>Que son las etiquetas semanticas?</h2>
+        <p>Las etiquetas semanticas en HTML sirven para definir una estrutura clara de mi sitio web.</p>
+    </section>
+    <section>
+        <h2>Tabla de eqtiqueta semántica</h2>
+        <table border="1">
     
+            <thead>
+                <tr>
+                    <th>ETIQUETA</th>
+                    <th>DESCRIPCION</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>123</td>
+                    <td>123</td>
+                </tr>
+                <tr>
+                    <td>456</td>
+                    <td>456</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+</main>
+<!-- Pie de pagina -->
+ <footer>
+    <p>Todos los derechos reservados</p>
+    
+ </footer>
 </body>
 </html>
