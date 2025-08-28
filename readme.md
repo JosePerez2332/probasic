@@ -9,8 +9,8 @@ Este es un proyecto que utiliza tecnologías como **HTML**, **CSS** y **Javascri
 ├── index.html                # Página principal
 ├── readme.md                 # Información del proyecto
 ├── html/
-│   ├── miprimerapágina.html  # 
-│   ├── .html                 # 
+│   ├── Miprimerapágina.html  # 
+│   ├── multimedia.html       # 
 │   └── .html                 # 
 ├── css/
 │   └── style.css             # Hoja de estilos externa común a todas las páginas
