@@ -1,59 +1,82 @@
-/* Estilos para etiqueta semanticas */
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* ####### Estilo para etiquetas semanticas ####### */
+body {
+    font-family: arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-main{
-    width: 60%;
+main {
+    width: 50%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-header{
+header {
     background-color: #4caf50;
     color: white;
     padding: 20px;
     text-align: center;
-
-/* estilos para menu de navegacion */
 }
-nav{
+
+/* ####### Estilo para menú de navegación ####### */
+.menu_nav {
     background-color: #333;
-    text-align:center ;
+    text-align: center;
     padding: 10px;
 }
 
-nav ul{
+.menu_nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.menu_nav ul li {
+    display: inline-block;
+    position: relative;
 }
 
-nav ul li a {
+.menu_nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: white;
+    padding: 10px 20px;
+    display: block;
 }
-nav ul li a:hover{
+
+.menu_nav ul li a:hover {
     text-decoration: underline;
     color: rgb(91, 255, 167);
 }
 
-/* estilo para la tabla */
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #333;
+    min-width: 200px;
+}
 
-h2{
+.menu_item:hover .submenu {
+    display: block;
+}
+
+.submenu li  {
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #555;
+}
+
+/* ####### Estilo para la tabla ####### */
+h2 {
     color: #333;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -63,7 +86,6 @@ table{
 
 table, th, td {
     border: 1px solid #ccc;
-
 }
 
 th, td {
@@ -75,10 +97,7 @@ thead {
     background-color: #e3e3e3;
 }
 
-
-
-/* estilo para foother */
-
+/* ####### Estilo para footer ####### */
 footer {
     background-color: #333;
     color: #fff;
@@ -87,12 +106,8 @@ footer {
     position: relative;
     width: 100%;
     margin-top: 30px;
-
 }
 
 footer p {
     margin: 0;
-
 }
-
-

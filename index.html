@@ -3,94 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/computador.png" type="img/png">
-    <link rel="stylesheet" href="css/style.css" />
-    
-    
-    <title>PaginaWeb</title>
+    <link rel="icon" href="img/computador.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PáginaWeb</title>
 </head>
 <body>
-   <!-- Carpeta del sitio web -->
+    <!-- Cabecera principal del sitio web --> 
     <header>
-        <h1>Guia de etiquetas</h1>
-        <p>Estoy aprendiendo como usar etiquetas en html para estruturar un sitio web</p>
-
+        <h1>Guía de Etiquetas</h1>
+        <p>Estoy aprendiendo como usar etiquetas en HTML para estructurar un sitio web</p>
     </header>
 
-    <!-- menu de navegación -->
-<nav>
-    <ul>
-        <li><a href="">Encabezado</a></li>
-        <li><a href="">Contenido Principal</a></li>
-        <li><a href="">Píe de pagina</a></li>
-        <!-- menu desplegable -->
-         <li class="menu_item">
-            <a href="">Etiquetas</a>
-            <ul class="submenu">
-                <li><a href="">Etiqueta1</a></li>
-                <li><a href="">Etiqueta1</a></li>
-                <li><a href="">Etiqueta1</a></li>
-            </ul>
-         </li>
-    </ul>
-</nav>
-<!-- contenido principal -->
+    <!-- Menú de navegación -->
+     <nav class="menu_nav">
+        <ul>
+            <li><a href="">Encabezado</a></li>
+            <li><a href="">Contenido Principal</a></li>
+            <li><a href="">Pié de Página</a></li>
+            <!-- Menú depslegable -->
+            <li class="menu_item">
+                <a href="">Etiquetas</a>
+                <ul class="submenu">
+                    <li><a href="">Etiquetas 1</a></li>
+                    <li><a href="">Etiquetas 1</a></li>
+                    <li><a href="">Etiquetas 1</a></li>
+                </ul>
+            </li>
+        </ul>
+     </nav>
 
-<main>
-    <section>
-        <h2>Que son las etiquetas semanticas?</h2>
-        <p>Las etiquetas semanticas en HTML sirven para definir una estrutura clara de mi sitio web.</p>
-    </section>
-    <section>
-        <h2>Tabla de eqtiqueta semántica</h2>
-        <table border="1">
-    
-            <thead>
-                <tr>
-                    <th>ETIQUETA</th>
-                    <th>DESCRIPCION</th>
-                
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><code>&lt;header&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;nav&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;main&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;footer&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;section&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;aside&gt;</code></td>
-                    <td>123</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;article&gt;</code></td>
-                    <td>123</td>
-        
-                </tr>
-            </tbody>
+     <!-- Contenido principal -->
+     <main>
+        <section>
+            <h2>¿Qué son las etiquetas semánticas?</h2>
+            <p>Las etiquetas semánticas en HTML sirven para definir una estructura clara de mi sitio web.</p>
+        </section>
+        <section>
+            <h2>Tabla de etiquetas semánticas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ETIQUETA</th>
+                        <th>DESCRIPCIÓN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td> Define una sección de contenido introductorio o de navegación, a menudo ubicada en la parte superior de una página web o de una sección,  es una parte visible del cuerpo de la página y es lo primero que ven los usuarios al visitarla.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;nav&gt;</code></td>
+                        <td>Se usa para agrupar enlaces de navegación principales en un sitio web, indicando a navegadores y lectores de pantalla que el contenido es para la navegación del sitio, mejorando la accesibilidad, el SEO y la legibilidad del código.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;main&gt;</code></td>
+                        <td>se utiliza para encapsular el contenido principal y único de un documento web.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;footer&gt;</code></td>
+                        <td>Se usa para definir el pie de página de un sitio web o de una sección específica del documento. Contiene información que complementa el contenido principal, como derechos de autor, enlaces a páginas legales (políticas de privacidad, términos de uso), información de contacto, el logo de la empresa o formularios de suscripción. </td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td>Se usa para agrupar contenido temáticamente relacionado dentro de un documento, creando secciones coherentes que mejoran la estructura, la legibilidad, la accesibilidad y el SEO.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;aside&gt;</code></td>
+                        <td>Define contenido relacionado indirectamente con el contenido principal de la página, como barras laterales, anuncios, citas destacadas, biografías de autores, o enlaces relacionados. Sirve para agrupar este contenido adicional y separarlo del contenido central, mejorando la organización semántica de la página web y la experiencia del usuario al mantener el foco en la información importante. </td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;article&gt;</code></td>
+                        <td>Se usa para encerrar un contenido que es independiente y autónomo, es decir, tiene sentido y puede ser reutilizado o distribido por sí solo fuera del contexto del resto de la página. Se aplica a elementos como artículos de blog, noticias, publicaciones de foros o comentarios de usuarios. Aporta un valor semántico que ayuda a los motores de búsqueda y a los desarrolladores a entender la estructura y la importancia de la información en la web. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+     </main>
 
-        </table>
-    </section>
-</main>
-<!-- Pie de pagina -->
- <footer>
-    <p>Todos los derechos reservados</p>
-    
- </footer>
+     <!-- Pie de pagina -->
+      <footer>
+        <p>Todos los derecho reservados - Sitio creado por JosePerez - @2025</p>
+      </footer>
 </body>
 </html>
