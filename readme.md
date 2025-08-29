@@ -12,7 +12,9 @@ Este es un proyecto que utiliza tecnologías como **HTML**, **CSS** y **Javascri
 │   ├── Miprimerapágina.html  # 
 │   ├── multimedia.html       # Videos y audios educativos
 │   ├── tarjetapersonal.html  # Informacion personal 
-│   └── 
+│   ├── formulario.html       # Formulario
+│   ├── propiedades.html      # Propiedades de CCS
+│   └── selectores.html       # Selectores de CCS
 ├── css/
 │   └── style.css             # Hoja de estilos externa común a todas las páginas
 │   └── .css                  # Script para aprender estilos de css
