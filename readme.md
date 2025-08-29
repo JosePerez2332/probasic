@@ -10,8 +10,9 @@ Este es un proyecto que utiliza tecnologías como **HTML**, **CSS** y **Javascri
 ├── readme.md                 # Información del proyecto
 ├── html/
 │   ├── Miprimerapágina.html  # 
-│   ├── multimedia.html       # 
-│   └── .html                 # 
+│   ├── multimedia.html       # Videos y audios educativos
+│   ├── tarjetapersonal.html  # Informacion personal 
+│   └── 
 ├── css/
 │   └── style.css             # Hoja de estilos externa común a todas las páginas
 │   └── .css                  # Script para aprender estilos de css
