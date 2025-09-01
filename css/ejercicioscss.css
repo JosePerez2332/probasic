@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    background-color: antiquewhite;
+}
+h1 {
+
+    color: #0000ff;
+
+}
+
+p {
+    color: #ff0000;
+}
+
+p#color_p {
+    color: #8a2be2;
+
+}
+
+p.color_p {
+    color: #00008b;
+
+}
+
+.color_p {
+    color: #8b0000;
+    
+}
+div#menu_nav > ul#opciones > li {
+    background-color: #000000;
+    color: #ffffff;
+
+ } 
+
+div#menu_nav > ul#opciones > li:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+ }
