@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/js.png" type="image/png">
+    <title>Eventos Js</title>
+</head>
+<body>
+    <img src="../img/js.png" alt="JS" width="600px">
+    <a href="../index.html">Volver atras</a>
+    <h1>Eventos Js</h1>
+
+    <div id="box" style="width:600px; height:100px; background-color:lightblue;">
+  Pasa el mouse aquí
+</div>
+
+<script>
+  document.getElementById('box').addEventListener('mouseover', function() {
+    this.style.backgroundColor = 'orange';
+  });
+</script>
+
+<button id="btn">Haz clic aquí</button>
+
+<script>
+  document.getElementById('btn').addEventListener('click', function() {
+    alert('¡Botón clickeado!');
+  });
+</script>
+
+<div id="area" style="width:600px; height:100px; background:lightgray;">
+  Haz clic derecho aquí
+</div>
+
+<script>
+  document.getElementById('area').addEventListener('contextmenu', function(e) {
+    e.preventDefault(); // Previene el menú por defecto
+    alert('Menú personalizado');
+  });
+</script>
+
+<input type="text" id="campo" placeholder="Escribe algo">
+
+<script>
+  const input = document.getElementById('campo');
+
+  input.addEventListener('focus', () => {
+    input.style.backgroundColor = 'lightyellow';
+  });
+
+  input.addEventListener('blur', () => {
+    input.style.backgroundColor = 'white';
+  });
+</script>
+
+
+</body>
+</html>
