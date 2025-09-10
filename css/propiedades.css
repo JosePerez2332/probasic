@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 30px 20px;
+  line-height: 1.6;
+}
+
+/* Enlace volver atrás */
+a {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004a99;
+  text-decoration: underline;
+}
+
+/* Títulos */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444;
+  text-align: justify;
+}
+
+/* Embed PDF */
+embed {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  border: none;  /* como querías en el html */
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  embed {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 15px 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+}

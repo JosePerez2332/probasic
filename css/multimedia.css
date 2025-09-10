@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    padding: 40px 20px;
+}
+
+/* Contenedor principal */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Títulos */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Video embebido */
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Enlaces */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #004a99;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}

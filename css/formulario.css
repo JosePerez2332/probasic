@@ -1,0 +1,102 @@
+/* Reset básico */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    color: #333;
+}
+
+/* Enlace de volver atrás */
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sección del formulario */
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+/* Etiquetas y campos */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Botón */
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #004c99;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section {
+        padding: 20px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+}

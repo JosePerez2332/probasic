@@ -14,7 +14,7 @@ main {
 }
 
 header {
-    background-color: #4caf50;
+    background-color: #3388e9;
     color: white;
     padding: 20px;
     text-align: center;
@@ -68,7 +68,7 @@ header {
 }
 
 .submenu li a:hover {
-    background-color: #555;
+    background-color: #3b6aec;
 }
 
 /* ####### Estilo para la tabla ####### */
