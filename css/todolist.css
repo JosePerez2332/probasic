@@ -1,0 +1,104 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #a8ebff;
+      background: radial-gradient(circle, rgba(168, 235, 255, 1) 0%, rgba(0, 153, 255, 1) 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}    
+
+.container {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: center;
+    }
+
+h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+/* ======== INPUT + BOTÓN ======== */
+input[type="text"] {
+      width: 70%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+    }
+
+button {
+      padding: 8px 12px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: background 0.2s;
+      margin-top: 15px;
+    }
+
+button:hover {
+      background: #45a049;
+    }
+
+/* ======== LISTA DE TAREAS ======== */
+ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+li {
+      background: #f9f9f9;
+      margin-bottom: 8px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+
+      display: flex;
+      justify-content: space-between;
+      /* Texto a la izquierda y botón a la derecha */
+      align-items: center;
+    }
+
+/* Botón de eliminar, el comentado para la X*/
+/* .btn-eliminar {
+      background: #ff4d4d;
+      border: none;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+    } */
+.btn-eliminar {
+      background: none;
+      border: none;
+      color: red;
+      cursor: pointer;
+      font-size: 18px;
+      margin-left: 10px;
+    }
+
+.btn-eliminar:hover {
+      background: #e60000;
