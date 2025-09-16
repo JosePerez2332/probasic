@@ -56,3 +56,15 @@ button{
 button:hover{
 
 }
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}

@@ -6,7 +6,7 @@ console.log("HOLA BIENVENIDO")
 //(3) Libreria SweetAlert2
 // Swal.fire("Hola desde SweetAlert2");
 //(4)en el DOM=> Modelo de Objetos del Documento
-document.write("Hola desde el dom")
+document.write("")
 
 // #### TIPOS DE VARIABLES
 var edad = 27; // alcance global

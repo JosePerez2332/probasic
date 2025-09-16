@@ -1,46 +1,85 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    
-}
+/* Archivo: ejercicioscss.css */
 
+/* Estilo general del body */
 body {
-    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 20px;
 }
+
+/* Estilo para el enlace "Volver atras" */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+a:hover {
+    color: #004999;
+}
+
+/* Estilo para el título principal */
 h1 {
-
-    color: #0000ff;
-
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
 }
 
-p {
-    color: #ff0000;
-}
-
-p#color_p {
-    color: #8a2be2;
-
-}
-
-p.color_p {
-    color: #00008b;
-
-}
-
+/* Subtítulo con clase color_p */
 .color_p {
-    color: #8b0000;
-    
+    color: #d6336c; /* Un rosa fuerte */
+    font-weight: 600;
 }
-div#menu_nav > ul#opciones > li {
-    background-color: #000000;
-    color: #ffffff;
 
- } 
+/* Párrafo con id color_p */
+#color_p {
+    color: #1a73e8; /* Azul vibrante */
+    font-style: italic;
+    margin-bottom: 15px;
+}
 
-div#menu_nav > ul#opciones > li:hover {
+/* Contenedor de menú */
+#menu_nav {
+    background-color: #e2e8f0;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Lista de opciones */
+#opciones {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Items de la lista */
+#opciones li {
     background-color: #ffffff;
-    color: #000000;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
- }
+/* Hover para items de la lista */
+#opciones li:hover {
+    background-color: #cbd5e0;
+}
 
- 
+.box {
+    max-width: 700px;          /* Ancho máximo de la caja */
+    margin: 40px auto;         /* Centrar horizontalmente con margen arriba y abajo */
+    padding: 30px 40px;        /* Espacio interior */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;       /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave */

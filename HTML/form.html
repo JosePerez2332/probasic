@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="../css/form.css">
+   <link rel="icon" href="../img/form.png" type="image/png">
+   <title>form</title>
+   <a href="../index.html">volver atras</a>
+
+</head>
+<body>
+
+    
+
+  <div class="container">
+    <h2>FORMULARIO DE USUARIO</h2>
+    <form id="registroForm" novalidate>
+
+      <div class="input-container">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
+        <div class="error" id="error_nombre"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" />
+        <div class="error" id="error_apellidos"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" maxlength="10" />
+        <div class="error" id="error_telefono"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" id="correo" />
+        <div class="error" id="error_correo"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="tipo_id">Tipo de Identificación</label>
+        <select id="tipo_id">
+          <option value="">Seleccione</option>
+          <option value="dni">DNI</option>
+          <option value="pasaporte">Pasaporte</option>
+          <option value="cedula">Cédula</option>
+        </select>
+        <div class="error" id="error_tipo_id"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="numero_id">Número de Identificación</label>
+        <input type="text" id="numero_id" />
+        <div class="error" id="error_numero_id"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="sexo">Sexo</label>
+        <select id="sexo">
+          <option value="">Seleccione</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+        <div class="error" id="error_sexo"></div>
+      </div>
+
+      <div class="input-container">
+        <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+        <input type="date" id="fecha_nacimiento" />
+        <div class="error" id="error_fecha"></div>
+      </div>
+
+      <div class="input-container password-container">
+  <label for="password">Contraseña (solo números)</label>
+  <div class="password-wrapper">
+    <input type="password" id="password" />
+    <i class="fas fa-eye toggle-password" data-target="password"></i>
+  </div>
+  <div class="error" id="error_password"></div>
+</div>
+
+<div class="input-container password-container">
+  <label for="confirm_password">Confirmar Contraseña</label>
+  <div class="password-wrapper">
+    <input type="password" id="confirm_password" />
+    <i class="fas fa-eye toggle-password" data-target="confirm_password"></i>
+  </div>
+  <div class="error" id="error_confirm_password"></div>
+</div>
+
+      <div class="buttons">
+        <button type="submit">Enviar</button>
+        <button type="button" onclick="document.getElementById('registroForm').reset(); limpiarErrores();">Limpiar Campos</button>
+      </div>
+
+<div class="resumen-container" id="resumen">
+  <h3>Datos</h3>
+  <ul id="listaResumen"></ul>
+</div>
+
+    </form>
+  </div>
+
+
+  
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/form.js"></script>
+</body>
+</html>
